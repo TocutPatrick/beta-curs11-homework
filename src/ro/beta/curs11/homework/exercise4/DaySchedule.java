@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DaySchedule {
-    private WeekDays day;
-    private List<String> activities = new ArrayList<>();
+    private final WeekDays day;
+    private final  List<String> activities = new ArrayList<>();
 
     public DaySchedule(WeekDays day) {
         this.day = day;

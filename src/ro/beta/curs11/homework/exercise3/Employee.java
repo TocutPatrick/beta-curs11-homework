@@ -1,10 +1,10 @@
 package ro.beta.curs11.homework.exercise3;
 
-public class Employees extends Person {
+public class Employee extends Person {
     private final Companies company;
     private final int salary;
 
-    public Employees(String name, int age, HairColour hairColour, Companies company, int salary) {
+    public Employee(String name, int age, HairColour hairColour, Companies company, int salary) {
         super(name, age, hairColour);
         this.company = company;
         this.salary = salary;
